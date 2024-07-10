@@ -1,0 +1,2 @@
+usage: gen_points.py [-h] [-N N] [-mindist MINDIST] [-rseed RSEED]
+gen_points.py: error: unrecognized arguments: -M=20 -nimdist=2 -rzeed=1

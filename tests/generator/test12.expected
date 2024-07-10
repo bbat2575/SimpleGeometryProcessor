@@ -1,0 +1,2 @@
+usage: gen_points.py [-h] [-N N] [-mindist MINDIST] [-rseed RSEED]
+gen_points.py: error: argument -N: invalid int value: ''
