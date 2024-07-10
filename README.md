@@ -6,6 +6,8 @@ A simple geometry processor:
 
 # Generator:
 
+Specify the parameters of your set (-rseed is optional and order of arguments doesn't matter).
+
 ```bash
 python3 gen_points.py -N=<number> -mindist=<mindist> -rseed=<rseed>
 ```
@@ -15,8 +17,6 @@ Example:
 ```bash
 python3 gen_points.py -N=20 -mindist=3 -rseed=2
 ```
-
-NOTE: -rseed is optional and order of arguments doesn't matter.
 
 # Searcher:
 
