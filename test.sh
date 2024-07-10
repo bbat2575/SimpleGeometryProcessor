@@ -1,3 +1,6 @@
+# Compile searcher exectuable
+make > /dev/null
+
 # Indicates whether a test has passed based on diff exit value
 status () {
     if [ $(echo $?) -eq 0 ]; then
@@ -189,3 +192,5 @@ status
 # Test 16: Mispelled agruments (Negative test case)
 python3 gen_points.py $(cat tests/generator+searcher/test$count.in) 2>/dev/null | ./smallest_triangle | diff - tests/generator+searcher/test$count.expected
 status
+
+make clean > /dev/null
