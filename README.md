@@ -7,9 +7,9 @@ A simple geometry processor:
 # Generator:
 
 Specify the parameters of your set:
-* -N : the number of points to generate.  
-* -mindist : the minimum distance between any two points.  
-* -rseed [optional] : a number used to generate a particular set of points.
+* -N: the number of points to generate.  
+* -mindist: the minimum distance between any two points.  
+* -rseed [optional]: a number used to generate a particular set of points.
 
 Syntax:
 
