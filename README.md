@@ -1,12 +1,17 @@
 # Description
 
 A simple geometry processor:
-1. Generator: Generates a set of 2D points.
+1. Generator: Generates a set of 2D points based on parameters.
 1. Searcher: Accepts a set of 2D points from stdin, calculates the three closest points and determines whether or not they form a triangle.
 
 # Generator:
 
-Specify the parameters of your set (-rseed is optional and order of arguments doesn't matter).
+Specify the parameters of your set:
+* -N : the number of points to generate.  
+* -mindist : the minimum distance between any two points.  
+* -rseed [optional] : a number used to generate a particular set of points.
+
+Syntax:
 
 ```bash
 python3 gen_points.py -N=<number> -mindist=<mindist> -rseed=<rseed>
