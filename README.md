@@ -4,7 +4,7 @@ A simple geometry processor:
 1. Generator: Generates a set of 2D points based on parameters.
 1. Searcher: Accepts a set of 2D points from stdin, calculates the three closest points and determines whether or not they form a triangle.
 
-# Generator:
+# Generator
 
 Specify the parameters of your set:
 * -N: the number of points to generate.  
@@ -47,7 +47,7 @@ Output:
 23.44, 40.66
 ```
 
-# Searcher:
+# Searcher
 
 Compile binary executable.
 
@@ -79,7 +79,7 @@ read 7 points
 This is a triangle
 ```
 
-# Generator + Searcher:
+# Generator + Searcher
 
 Compile binary executable.
 
