@@ -1,6 +1,6 @@
 # Simple Geometry Processor
 
-**Generator:** Generates a set of 2D points based on parameters.  
+**Generator:** Generates a set of 2D points based on input parameters.  
 **Searcher:** Accepts a set of 2D points from stdin, calculates the three closest points and determines whether or not they form a triangle.  
 
 ## Generator
